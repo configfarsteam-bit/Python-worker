@@ -1,4 +1,4 @@
-
+[English](https://github.com/configfarsteam-bit/Python-worker/blob/main/README.md)
 
 # Cloudflare Python Worker
 
