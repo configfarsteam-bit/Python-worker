@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "deploy": "uv run pywrangler deploy"
+  }
+}
