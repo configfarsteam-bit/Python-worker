@@ -1,5 +1,3 @@
 workers-py>=1.9
 requests
 httpx
-numpy
-pandas
