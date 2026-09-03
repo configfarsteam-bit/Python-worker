@@ -1,5 +1,5 @@
 {
-  "scripts": {
-    "deploy": "uv add -r requirements.txt --no-sync && mv requirements.txt requirements.txt.bak && (uv run pywrangler deploy); status=$?; mv requirements.txt.bak requirements.txt; exit $status"
-  }
+"scripts": {
+"deploy": "sh -c 'set -e; uv add -r requirements.txt --no-sync; mv requirements.txt /tmp/requirements.txt; trap "mv -f /tmp/requirements.txt requirements.txt" EXIT; uv run pywrangler deploy'"
+}
 }
