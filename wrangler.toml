@@ -1,0 +1,4 @@
+name = "my-python-worker"
+main = "index.py"
+compatibility_date = "2026-09-03"
+compatibility_flags = ["python_workers"]
