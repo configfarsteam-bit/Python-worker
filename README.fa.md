@@ -1,4 +1,4 @@
-[فارسی]
+[فارسی](https://github.com/configfarsteam-bit/Python-worker/blob/main/README.fa.md) [English](https://github.com/configfarsteam-bit/Python-worker/blob/main/README.md)
 
 # پایتون ورکر کلادفلر
 
